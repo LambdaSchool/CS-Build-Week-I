@@ -1,0 +1,155 @@
+* {
+  /*border: 1px solid black;*/
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+header {
+  margin: 40px 0 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+button {
+  outline: none;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.grid-controls-presets-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.grid-slider-iteration-count-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-container {
+  box-sizing: border-box;
+  border: 1px solid gray;
+}
+
+.rules-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid gray;
+  height: 482px;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.controls-top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.controls-bottom-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.control-wrapper {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+}
+
+.preset-wrapper {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  border: 1px solid gray;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.dead-cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+}
+
+.living-cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  background: black;
+}
+
+.slider-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+  height: 62px;
+  border: 1px solid gray;
+}
+
+.iteration-count {
+  border: 1px solid gray;
+  box-sizing: border-box;
+  padding: 0 15px 0 15px;
+  width: 100%;
+  text-align: right;
+  font-size: 150px;
+}
+
+a:visited {
+  color: black;
+}
+
+.link-wrapper {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+}
