@@ -1,0 +1,12 @@
+# This file will be run to auto-correct certain swiftlint rules before swiftlint is run with the standard .swiftlint.yml configuration file.
+#
+# An enhancement to do this has been requested here: https://github.com/realm/SwiftLint/issues/1451
+# Once done, that enhancement might obsolete this approach.
+
+# Only add rules here you want to auto-correct
+whitelist_rules:
+- trailing_whitespace
+- trailing_semicolon
+- trailing_newline
+excluded: # paths to ignore during linting.
+  - Carthage

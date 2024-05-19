@@ -1,0 +1,88 @@
+# SwiftLint configuration file
+#
+# For any changes to this file, tag all team members in the PR for quick approval or discussion
+#
+# See current configuration with:
+# swiftlint rules
+#
+# See documentation for the latest (master branch) rules at: https://github.com/realm/SwiftLint/blob/master/Rules.md
+# and https://github.com/realm/SwiftLint for an example of options in this file
+#
+disabled_rules: # rule identifiers to exclude from running
+  - class_delegate_protocol # This breaks if you have a delegate protocol that inherits from a class-bound protocol (see: SwiftyTables DataSourceDelegate)
+  - identifier_name
+  - redundant_objc_attribute
+  - todo
+  - trailing_comma
+  - first_where
+  - function_body_length
+  - force_cast
+  - line_length
+  - cyclomatic_complexity
+  - vertical_parameter_alignment # does not work with tab indentation: https://github.com/realm/SwiftLint/issues/1573
+
+excluded: # paths to ignore during linting.
+  - Carthage
+  - Swift Style Guide.playground
+  - fastlane/*
+  - Pods
+
+opt_in_rules:
+  - anyobject_protocol
+  - closure_spacing
+  - collection_alignment
+  - conditional_returns_on_newline
+  - convenience_type
+  - empty_count
+  - empty_xctest_method
+  - explicit_init
+  - fatal_error_message
+  - first_where
+  - function_default_parameter_at_end
+  - identical_operands
+  - implicit_return
+  - joined_default_parameter
+  - last_where
+  - legacy_random
+  - let_var_whitespace
+  - modifier_order
+  - multiline_arguments
+  - multiline_parameters
+  - operator_usage_whitespace
+  - overridden_super_call
+  - private_outlet
+  - prohibited_super_call
+  - redundant_nil_coalescing
+  - static_operator
+  - toggle_bool
+  - unavailable_function
+  - unneeded_parentheses_in_closure_argument
+  - untyped_error_in_catch
+  - unused_control_flow_label
+  - vertical_parameter_alignment_on_call
+  - xct_specific_matcher
+
+  # Experimental
+  - explicit_self
+  - unused_import
+  - unused_private_declaration
+
+# Rule options
+conditional_returns_on_newline:
+  if_only: true
+file_length:
+  warning: 800
+  error: 1000
+line_length:
+  warning: 200
+  ignores_comments: true
+  ignores_interpolated_strings: true
+multiline_arguments:
+  only_enforce_after_first_closure_on_first_line: true
+type_body_length:
+  warning: 400
+  error: 700
+vertical_whitespace:
+  max_empty_lines: 2
+trailing_whitespace:
+  ignores_empty_lines: true
