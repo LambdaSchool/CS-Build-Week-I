@@ -1,0 +1,51 @@
+
+
+.rules-container {
+  position: absolute;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  top: 36px;
+  color: #cc527a;
+  font-size: 3rem;
+  border-radius: 5px 0 0 5px;
+  background: none;
+  color: rgba(255, 255, 255, 0.3);
+  opacity: 0;
+  transition-property: opacity;
+  transition-delay: 5.5s;
+  
+  a {
+    text-decoration: none;
+    margin-left: 3%;
+    color: rgba(255,255,255, 0.3);
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-delay: 6.6s; 
+    &:active{
+      color:rgba(241, 255, 64, 1);
+    }
+    &:hover{
+      color: #cc527a;
+    }
+  }
+}
+.show-container {
+  opacity: 1;
+}
+
+@keyframes grow {
+  0% {
+      transform:scale(1);
+  }
+  50% {
+    transform:scale(1.5);
+}
+  100% {
+    transform:scale(1);
+  }
+}

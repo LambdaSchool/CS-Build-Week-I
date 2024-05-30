@@ -1,0 +1,7 @@
+Palette:
+lite gray: #a8a7a8
+matte pink: #cc527a
+brite pink: #e8175d
+med gray: #474747
+dark gray: #363636
+

@@ -1,0 +1,50 @@
+Pull Request:
+https://github.com/LambdaSchool/Conways-Life/pull/162
+https://github.com/ErikKimsey/Conways-Life
+
+Trello:
+https://trello.com/b/b41ewAGR/gameoflifeerikkimsey
+
+Memoization:
+https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19
+
+Hashlife:
+http://www.drdobbs.com/jvm/an-algorithm-for-compressing-space-and-t/184406478
+http://jennyhasahat.github.io/hashlife.html
+
+
+
+Nature of Code:
+https://github.com/shiffman/The-Nature-of-Code-Examples/tree/master/chp07_CA
+https://natureofcode.com/book/chapter-7-cellular-automata/
+
+
+
+Double Buffering:
+HTML Canvas ----> https://www.tutorialspoint.com/Does-HTML5-Canvas-support-Double-Buffering 
+HTML Canvas ----> 
+http://blog.bob.sh/2012/12/double-buffering-with-html-5-canvas.html
+HTML Canvas ----> 
+http://devbutze.blogspot.com/2014/02/html5-canvas-offscreen-rendering.html 
+
+https://www.youtube.com/watch?v=7cRRxlWRl8g
+https://gamedev.stackexchange.com/questions/157069/how-does-the-double-buffered-canvas-know-when-to-swap-the-buffer
+
+React + P5:
+https://medium.com/front-end-hacking/the-building-of-threadd-react-three-js-p5-js-fc988e687686
+https://github.com/NeroCor/react-p5-wrapper
+https://github.com/slin12/react-p5-wrapper
+https://forum.processing.org/two/discussion/26322/using-react-with-p5-js-es6-support <-- (02/2018)
+https://github.com/atorov/fractal-tree-simulator/blob/master/src/components/P5Wrapper/sketch.js <-- (02/2018)
+
+P5 + ES6:
+https://github.com/ErikKimsey/p5.js-es6
+
+D3:
+https://bl.ocks.org/cagrimmett/07f8c8daea00946b9e704e3efcbd5739 (grid)
+http://bl.ocks.org/eesur/3fc83ddc4c060e6bd43e (grid)
+https://bl.ocks.org/mbostock/1009139 (grid)
+https://codepen.io/bishopsmove/pen/AlHmc (grid)
+
+
+
