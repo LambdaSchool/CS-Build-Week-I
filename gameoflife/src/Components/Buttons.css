@@ -1,0 +1,7 @@
+.buttons {
+    width: 200px;
+    margin-top: 25px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+}

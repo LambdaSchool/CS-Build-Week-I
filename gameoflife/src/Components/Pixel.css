@@ -1,0 +1,21 @@
+.box {
+    display: inline-block;       
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    }
+  
+  .off {
+    background-color: rosybrown;
+  }
+  
+  .on {
+    background-color: cyan;
+  }
+    
+  .box:hover { 
+    background: lightgreen;
+  }
+  
