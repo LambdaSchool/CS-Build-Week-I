@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.container {
+  display: flex; 
+  flex-wrap: wrap;
+  border: 3px solid red; 
+  background: grey;
+  margin: 0 auto;
+
+}
+.titleApp {
+  width: 100%;
+  text-align: center; 
+  color: blue; 
+}
+
+.topButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.gridDiv {
+  width: 20px;
+  border : 1px solid grey; 
+}
+
+.onDiv {
+  background: black; 
+  color: black; 
+}
+
+.offDiv {
+  background:white; 
+  color: white;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.colorChoices {
+  display: flex; 
+  justify-content: space-between;
+}
+.divcolor {
+  width: 22px; 
+  height: 22px; 
+  border: 1px solid gold;
+  margin-right: 7px;
+}
+
+.divcolor:hover {
+  cursor: pointer;
+}
+.white {
+  background: white;
+  color: white;
+}
+.black {
+  background: black;
+  color: black; 
+}
+.blue {
+  background: blue;
+  color: blue;  
+}
+.green {
+  background: green;
+  color: green; 
+}
+.orange {
+  background: orange;
+  color: orange;  
+}
+.purple {
+  background: purple;
+  color: purple;
+}
+.pink {
+  background: pink;
+  color: pink; 
+}
+.yellow {
+  background: yellow;
+  color: yellow;  
+}
+
+.presetsDiv {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.presetsDiv p {
+  background-color: blue;
+  color: white;
+  width: 45px; 
+  font-size: 12px;
+  text-align: center;
+}
+.presetsDiv p:hover {
+  cursor: pointer;
+}
+
+.labels {
+  font-size: 8px; 
+}
+
+
+
+
+
+

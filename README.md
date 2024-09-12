@@ -1,3 +1,5 @@
+Trello Board that goes with this repo  https://trello.com/b/bRjoKRwO/gameoflife-jonathanjamelholloway
+
 # Cellular Automata and Conway's "Game of Life"
 
 ---
