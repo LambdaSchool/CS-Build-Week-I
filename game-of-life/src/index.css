@@ -1,0 +1,114 @@
+
+body {
+   background-image: url(wheat.png);
+   
+     /*(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png) */
+ 
+} 
+  
+.box {
+  display: inline-block;       
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  border-radius: 2px;
+  }
+
+.off {
+  background-color: rgba(211, 211, 211, 0.708);
+}
+
+.off:link,
+.button:visited {
+  transition: all .2s;  
+}
+
+.off:hover {
+    transform: translateY(-3px);
+    /* box-shadow: 0 10px 20px white; */
+    box-shadow: 0 5px 20px rgb(0,0,.5);
+}
+
+.off:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 20px rgb(0,0,.5);
+}
+
+
+.on {
+  background-color: green;
+}
+
+.on:link,
+.button:visited {
+  transition: all .5s;  
+}
+
+/* .on:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px white;
+} */
+
+.on:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 20px rgb(0,0,.3);
+}
+
+
+  
+.box:hover { 
+  background: green;
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+  box-shadow: 0px 0px 20px white;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+  
+h1, h2, h3, h4 {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 0px;
+}
+.button {
+  height: 40px;
+  width: 90px;
+  background: red;
+  border-radius: 8px; 
+}
+
+.button:link,
+.button:visited {
+  transition: all .2s;  
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px white;
+    background-color: white;
+}
+
+.button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 20px rgb(0,0,.3);
+}
+
+
