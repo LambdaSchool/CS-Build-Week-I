@@ -1,0 +1,17 @@
+.board {
+    position: relative;
+    margin: 0 auto;
+    background-color:black;
+    background-image: linear-gradient(#333 2px, transparent 1px), linear-gradient(90deg, #333 2px, transparent 1px);
+}
+  
+.cell {
+    background: red;
+    border: 0.5px solid black;
+    position: absolute;
+}
+
+.slider{
+    max-width: 500px;
+    margin: 0 auto;
+}
