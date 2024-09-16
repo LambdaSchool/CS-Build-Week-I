@@ -1,3 +1,5 @@
+Trello URL: https://trello.com/b/vejf8UQU/gameoflife-noah-amar
+
 # Cellular Automata and Conway's "Game of Life"
 
 ---
