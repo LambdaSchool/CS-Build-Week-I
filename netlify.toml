@@ -1,0 +1,4 @@
+[build]
+base = "conways-life/"
+publish = "conways-life/build/"
+command = "yarn build"

@@ -1,4 +1,6 @@
-# Cellular Automata and Conway's "Game of Life"
+Trello Link: https://trello.com/b/bDbQEqrF
+
+# Cellular Automata and Conway's "Game of Life" 
 
 ---
 
