@@ -1,0 +1,182 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  box-sizing: border-box;
+}
+
+.App .container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  max-width: 1140px;
+
+  header {
+    width: 100%;
+    padding: 3rem 0;
+    font-size: 2.6rem;
+    text-align: center;
+  }
+
+  .game-view {
+    width: 60%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+      padding: 3rem 0;
+    }
+
+    .grid {
+      display: flex;
+      flex-flow: row wrap;
+      max-width: 100%;
+    }
+
+    .btns {
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap;
+      width: 100%;
+      padding: 3rem 0;
+
+      button {
+        padding: 1.5rem 2rem;
+        border-radius: 2rem;
+        font-size: 1.6rem;
+        transition: all 0.2s;
+
+        &:hover {
+          cursor: pointer;
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+        }
+
+        &:focus {
+          outline: none;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        }
+      }
+
+      .speed-btns {
+        width: 100%;
+        padding: 3rem 0;
+
+        h3 {
+          display: inline-block;
+        }
+
+        button {
+          margin: 0 1.5rem;
+        }
+
+        .speed-active {
+          background-color: #8e8989;
+        }
+      }
+    }
+  }
+
+  .info-view {
+    width: 40%;
+    padding: 0 3rem;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    h2 {
+      padding: 3rem 0;
+      text-align: center;
+    }
+
+    .legend {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-top: 5rem;
+      padding: 3rem 0;
+
+      .legend-box {
+        display: inline-block;
+        width: 10%;
+        height: 3.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      }
+
+      .box-green {
+        background-color: #13f252;
+      }
+
+      .box-yellow {
+        background-color: #f4fc00;
+      }
+
+      .box-black {
+        background-color: #423636;
+      }
+      span {
+        font-size: 1.4rem;
+        padding: 0 1.5rem;
+      }
+    }
+
+    .game-stats {
+      width: 100%;
+
+      h3 {
+        padding: 2rem 0;
+        text-align: center;
+      }
+
+      p {
+        padding: 0.5rem 0;
+
+        @media (max-width: 768px) {
+          text-align: center;
+        }
+      }
+    }
+
+    .switch-ctn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin-top: 3rem;
+      padding: 3rem 0;
+
+      p {
+        display: inline-block;
+        padding: 0 1.5rem;
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  .about-game {
+    h2 {
+      padding: 3rem 0;
+      text-align: center;
+    }
+
+    p {
+      padding: 0 3rem 3rem 3rem;
+    }
+  }
+}
