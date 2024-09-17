@@ -1,3 +1,7 @@
+Trello: https://trello.com/b/7KeO3BxR/gameoflife-sania-parekh
+
+
+
 # Cellular Automata and Conway's "Game of Life"
 
 ---

@@ -1,0 +1,66 @@
+.Homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.play-button {
+    width: 150px;
+    height: 50px;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #72587F;
+    background-color: #EED2EE;
+    border: 2px solid #4F2F4F;
+}
+
+.rules {
+    height: 300px;
+    width: 520px;
+    font-weight: bold;
+    border: 2px solid #4F2F4F;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+
+}
+
+.rules h3 {
+    text-align: center;
+    padding: 0;
+}
+
+.rules p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.about {
+    height: 200px;
+    width: 520px;
+    font-weight: 500;
+    border: 2px solid #4F2F4F;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+}
+
+.about h3 {
+    text-align: center;
+    padding: 0;
+}
+
+.about p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.go-play {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: 2px dotted #4F2F4F;
+   
+}

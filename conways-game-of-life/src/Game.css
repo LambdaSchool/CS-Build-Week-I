@@ -1,0 +1,66 @@
+ /* .graphBoard {
+    background-color: #9D6B84	;
+    position: relative;
+    margin: 0 auto;
+    background-image:
+    linear-gradient(#aca2b0 1px, transparent 1px),
+    linear-gradient(90deg, #aca2b0 1px, transparent 1px);
+}
+
+.indivCell {
+    background: #e0babc;
+    position: absolute;
+} */
+
+.gameBoard {
+    position: relative;
+    margin: 0 auto;
+    background-color: #9D6B84;
+    background-image:
+        linear-gradient(#aca2b0 1px, transparent 1px),
+        linear-gradient(90deg, #aca2b0 1px, transparent 1px);
+
+}
+
+.Cell {
+    background: #e0babc;
+    position: absolute;
+}
+.button {
+    width: 75px;
+    height: 25px;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: bold;
+    font-size: 11px;
+    color: #72587F;
+    background-color: #EED2EE;
+    border: 2px solid #4F2F4F;
+    margin: 7px;
+    margin-top: 15px;
+}
+
+.home-button {
+    width: 75px;
+    height: 25px;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #72587F;
+    background-color: #EED2EE;
+    border: 2px solid #4F2F4F;
+}
+
+
+.container {
+    width: 100%;
+    height: 800px;
+}
+
+  .speed {
+    font-weight: bold;
+    margin-bottom: 10px;
+ } 
+
+ .gameBoard {
+    border: 2px solid #4F2F4F;
+ }
