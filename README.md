@@ -1,3 +1,7 @@
+Trello Board:
+https://trello.com/b/YQ3qvNrE/simon-davis-conways-life
+
+
 # Cellular Automata and Conway's "Game of Life"
 
 ---
