@@ -1,0 +1,29 @@
+.grid {
+    width: 150px;
+    margin: 10px auto;
+    line-height: 0;
+  }
+  .cell {
+    display: inline-block;
+    border: 1px solid black;
+    width: 13px;
+    height: 13px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+  }
+  .white {
+      background-color: white;
+  }
+  .black {
+      background-color: black;
+  }
+  .cell:hover {
+    background-color: gray;
+  }
+  .rulesArea {
+      width: 30%;
+      font-size: 1.3rem;
+  }
+  .wikilink {
+      color: white;
+  }
