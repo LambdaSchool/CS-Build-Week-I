@@ -1,0 +1,27 @@
+:root {
+  --rowNum: 20;
+  --colNum: 20;
+  --gridHeight: 120px;
+}
+
+body{
+  background-color: #f4f4f4;
+}
+
+.board-container{
+  width: 800px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(var(--colNum), auto);
+  grid-template-rows: repeat(var(--rowNum), auto);
+}
+.cell {
+  border: #fff solid 1px;
+  background-color: #2e2829;
+  cursor: crosshair;
+}
+.redcell {
+  background-color: red;
+}
