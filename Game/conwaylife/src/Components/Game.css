@@ -1,0 +1,35 @@
+.Board {
+    position: relative;
+    margin: 0 auto;
+    background-color: #000;
+    background-image:
+    linear-gradient(#333 1px, transparent 1px),
+    linear-gradient(90deg, #333 1px, transparent 1px);
+  }
+
+  .Cell {
+    background: #ffc107;
+    position: absolute;
+  }
+
+  .controls {
+    font-family: 'Chakra Petch', sans-serif;
+    color: white;
+    font-size: 24px;
+    display: flex;
+  }
+
+ 
+  .Clear {
+    cursor: pointer;
+text-decoration: none;
+background-color: #B416AE;
+border: 1px solid #340069;
+width: 200px;
+height: 60px;
+font-family: 'Chakra Petch', sans-serif;
+color: #340069;
+margin-left: 15px;
+font-size: 26px;
+font-style: italic;
+  }
