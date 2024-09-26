@@ -1,0 +1,98 @@
+.App{
+  display: flex;
+  justify-content: space-between;
+  background-color: ivory;
+}
+
+.rules-container{
+  width: 25%;
+  margin-left: 2%;
+}
+.rules-container h1{
+
+}
+
+.rules-container a{
+
+}
+
+.info-container{
+  width: 20%;
+  margin-right: 2%;
+}
+
+.info-container h1{
+
+}
+
+.info-container a{
+
+}
+
+.cell-container-dead{
+  display:flex;
+  flex: 1;
+  padding: 5px;
+  border: 0.5px solid black;
+}
+
+.cell-container-alive{
+  display:flex;
+  flex: 1;
+  padding: 5px;
+  border: 0.5px solid black;
+  background-color: black;
+}
+
+
+.grid-container{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 0 60px;
+}
+
+.controls-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  width: 53%;
+}
+
+.stats-container {
+  display: flex;
+}
+
+.stats-container a input {
+  width: 15%;
+  margin-left: 5%;;
+  background-color: ivory;
+}
+
+.stats-container a{
+  width: 33%;
+  text-align: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.buttons-container button{
+  width: 20%;
+  background: ivory;
+  border: 1px solid darkgray;
+  font-size: 0.8rem;
+}
+
+#root {
+  background-color: ivory;
+  height: -webkit-fill-available;
+}
