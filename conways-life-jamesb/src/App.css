@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 50px auto;
+  font-size: 25px;
+  border-radius: 10px;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
