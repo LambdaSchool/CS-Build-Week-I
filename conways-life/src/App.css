@@ -1,0 +1,65 @@
+.app-container {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.header-container {
+  width: 800px;
+}
+
+.grid-container {
+  margin: auto;
+}
+
+.preset-container {
+  margin: auto 0;
+}
+
+.preset-container input {
+  width: 61px;
+}
+
+.rules-container {
+  width: 200px;
+  margin: auto;
+}
+
+.about-container {
+  width: 700px;
+  margin: auto;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+.cell {
+  display: inline-block;       
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  }
+
+.off {
+  background-color: white;
+}
+
+.on {
+  background-color: black;
+}
+  
+.cell:hover { 
+  background: #00CCFF;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  box-shadow: 0px 0px 20px white;
+  margin-top: 20px;
+}
