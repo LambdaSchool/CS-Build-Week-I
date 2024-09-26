@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  letter-spacing: 3px;
+  margin-left: 15%;
+}
+.left {
+  padding-top: 15%;
+}
+
+.ButtonContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+}
+
+.Button:hover {
+  background-color: #3e8e41;
+}
+
+.Button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+h2 {
+  margin-left: 15%;
+}
+p {
+  margin-left: 15%;
+}
