@@ -1,0 +1,4 @@
+[build]
+  base = "conway"
+  publish = "conway/build"
+  command = "npm run build"

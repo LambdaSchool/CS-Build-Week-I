@@ -1,3 +1,6 @@
+TRELLO BOARD LINK:  https://trello.com/b/NqClgtqS/gameoflife-katie-gorbell
+
+
 # Cellular Automata and Conway's "Game of Life"
 
 ---
