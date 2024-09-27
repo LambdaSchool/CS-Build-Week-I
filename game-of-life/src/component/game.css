@@ -1,0 +1,17 @@
+.canvas-board {
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    background-image: 
+        linear-gradient(grey 1px, transparent 1px),
+        linear-gradient(90deg, grey 1px, transparent 1px);
+    background-size: 16px 16px;
+}
+
+.cell {
+    background-color: dodgerblue;
+    position: absolute;
+}

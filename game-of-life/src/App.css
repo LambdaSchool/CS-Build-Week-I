@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 5px 0;
+  font-weight: bold;
+}
+h1 {font-size: 2em;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.17em;}
+h4 {font-size: 1em;}
+h5 {font-size: .83em;}
+h6 {font-size: .67em;}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+}  
+
+.container {
+  background-color: dodgerblue;
+}
+.wrapper-home {
+  background-color: goldenrod;
+  margin: 0 auto;
+  width: 950px;
+  height: 100vh;  
+}
+header {
+  color: white;
+  border-bottom: 1px solid black;
+}
+.content {
+  background-color: goldenrod;
+  display:flex;
+}
+.wrapper-game {
+  min-height: 400px;
+  min-width: 400px;
+}
+.left {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  width: 400px;
+}
+.middle {
+  background-color: orange;
+  margin: 25px 25px 0 25px;
+  width: 200px;
+  height: 400px;
+}
+.preset {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.img-preset {
+  background-color: black;
+  width: 80px;
+  height: 80px;
+}
+.preset button {
+  width: 120px;
+  height: 25px;
+  border-radius: 18px;
+}
+.right {
+  background-color: orange;
+  margin: 0 25px 0 25px;;
+  width: 250px;
+}
+.right li {
+  text-align: left;
+}
+.control {
+  display: flex;
+  justify-content: space-evenly;
+}
+.control button {
+  width: 100px;
+  height: 25px;
+  border-radius: 18px;
+}
+footer {
+  background-color: dodgerblue;
+  margin: 25px auto 0 auto;
+  padding: 25px 25px; 
+  width: 700px;
+}
+footer h2 {
+  padding: 0;
+}
