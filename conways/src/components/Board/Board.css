@@ -1,0 +1,41 @@
+.interface-ctn {
+    margin-left: 50px;
+    margin-top: 10px;
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+.board {
+    display:flex;
+	width:330px;
+    flex-flow: row wrap;
+    border:1px solid black;
+}
+
+.btn-ctn {
+    margin-top: 20px;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-btn {
+    width: 100px;
+    border-radius: 12px;
+    outline: none;
+}
+
+.slider {
+    width: 30%;
+    float: center;
+    margin-top: 20px;
+    margin-left: 22%;
+}
+@media only screen and (max-width: 600px){
+    .interface-ctn {
+        margin-left: 15px;
+    }
+    .slider {
+        margin-left: 50%;
+        width: 100%;
+    }
+}
