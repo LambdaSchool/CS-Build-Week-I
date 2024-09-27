@@ -110,14 +110,14 @@ All `useEffect()` needs to do is call `requestAnimationFrame()`. We will then
 ## Exercise
 ### Create useAnimationCustomHook 
 ```javascript
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 // custom hook for using animation frame
 export const useAnimeFrame = ( timestamp, doAnimationCallBack ) => {
   
   // set the prev time stamp
   const [ prevTimeStamp, setTimeStamp ] = useState( timestamp - 30 );
-  const [ continueAnimation, setContinueAnimation ] = useState( true );
+  const continueAnimation = useRef( );
   const [ started, setStarted ] = useState( false );
   
   useEffect( () => {
@@ -133,7 +133,7 @@ export const useAnimeFrame = ( timestamp, doAnimationCallBack ) => {
   const onFrame = ( timestamp ) => {
     
     // if we want to do more ask for the next frame
-    if( continueAnimation ){
+    if( continueAnimation.current ){
       requestAnimationFrame( onFrame );
     }
     const elapsed = prevTimeStamp - timestamp;
@@ -147,7 +147,7 @@ export const useAnimeFrame = ( timestamp, doAnimationCallBack ) => {
   
   // this wills stop the hook from calling the next animation frame
   const cancelAnimation = () => {
-    setContinueAnimation( false );
+    continueAnimation.current =  false;
   };
   
   return [ cancelAnimation ];
@@ -180,8 +180,13 @@ const MyComponent = ( props ) => {
   /**
    * Render the canvas
    */
-  return ( <canvas ref={ canvasRef } width={ props.width }
-                   height={ props.height }/> );
+  return ( 
+    <div>
+        <canvas ref={ canvasRef } width={ props.width }
+                           height={ props.height }/> 
+        <button onClick={stopAnimation}>Stop</button>
+    </div>
+);
 };
 
 export default MyComponent;
