@@ -1,4 +1,6 @@
-# Cellular Automata and Conway's "Game of Life"
+# Cellular Automata and Conway's "Game of Life" 
+
+TRELLO LINK: https://trello.com/invite/b/ZSqkFON2/c2144719e0d7c191550fd747276e52af/gameoflife-tyson-gushiken
 
 ---
 
