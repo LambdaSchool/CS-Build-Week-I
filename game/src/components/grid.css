@@ -1,0 +1,44 @@
+.game-container {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.grid-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.extras-container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.rules {
+    margin: 20px auto;
+}
+
+.rules-body{
+    text-align: left;
+    margin: 0 auto;
+}
+
+.about {
+    margin: 20px auto;
+}
+
+.about-body{
+    text-align: left;
+    margin: 0 auto;
+}
+
+h5 {
+    margin: 5px 0;
+}
+
+button{
+    margin: 10px;
+}

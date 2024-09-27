@@ -1,0 +1,4 @@
+[build]
+base="game/"
+publish="game/build"
+command="yarn build"
