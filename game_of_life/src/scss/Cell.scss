@@ -1,0 +1,20 @@
+.cell {
+    display: inline-block;       
+    border: 1px solid white;
+    width: 15px;
+    height: 15px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+
+.cell:hover { 
+    background: gold;
+} 
+
+.dead {
+    background-color: black;
+}
+  
+.live {
+    background-color: white;
+}
