@@ -1,0 +1,88 @@
+body {
+    background:rgb(22, 27, 31);
+    width: 80%;
+    margin: 0 auto;
+  
+}
+.instructions{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    margin-top: 5% ;
+}
+#canvas {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#counter{
+    font-size: large;
+    color: yellow;
+    margin-left: 44%;
+    margin-bottom: 2%;
+}
+td {
+    width: 9px;
+    height: 9px;
+    border: 1px solid rgb(43, 43, 43);
+}
+
+.Title{
+    color:yellow;
+    margin-left: 30%;
+}
+
+.on {
+    background:black;
+    border: 1px solid rgb(255, 30, 0);
+}
+
+
+button {
+    font-weight: 700;
+    color: seashell;
+    background: rgb(109, 125, 138);
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+p,h1,h2,h3{
+    color: white;
+    margin: 3px;
+}
+
+.main-controls {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.main-controls button{
+    margin: 5px;
+    width: 150px;
+    margin-top: 2%;
+}
+
+.secondary-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondary-controls button {
+    width: 150px;
+    margin-bottom: 3%;
+}
+.control-box {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-box p,.control-box h2{
+    width: 100%;
+    text-align: center;
+}
+.other-button{
+    background:rgb(109, 125, 138);
+} 	

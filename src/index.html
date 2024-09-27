@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Game of Life</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body>
+    <h1 class='Title'>Conway's Game of Life</h1>
+    <div class="instructions">
+        <h2>Rules:</h2>
+            <p>If the cell is alive and has 2 or 3 neighbors, then it remains
+            alive. Else it dies.</p>
+            <p>If the cell is dead and has exactly 3 neighbors, then it comes to
+            life. Else if remains dead.</p>
+    </div>
+    <p id='counter'>Generation: 0</p>
+    
+    <table id='canvas' style='background: white'>
+    </table>
+    <script src="./index.js"></script>
+    <script src="./shapes.js"></script>
+    <script src="./button.js"></script>
+
+    <div class='main-controls'>
+        <button id='play' onclick="togglePlay()">Play</button>
+        <button id='random' onclick="randomize()">Randomize</button>
+        <button id='next' onclick="next()">Next</button>
+        <button onclick="clearBoard()">Clear</button>
+        
+
+    </div>
+
+    <div class='secondary-controls'>
+        <!-- <p id='speedTracker'> Speed: 150ms</p>
+        <p>Adjust speed to your enjoyance</p>
+        <div class='control-box'>
+            <button onclick="lowerSpeed()">Slow Down <<</button>
+            <button onclick="increaseSpeed()">Speed Up >></button>
+        </div> -->
+        <div class='control-box'>
+            <h2>Shapes</h2>
+            <button onclick="beacon()">Beacon</button>
+            <button onclick="blinker()">Blinker</button>
+            <button onclick="hammerHead()">Hammer Head</button>
+        </div>
+        <div class='control-box'>
+            <p id='xwidth'>Width: 50</p>
+            <button onclick="increment('x', 10)">Increase Width</button>
+            <button onclick="increment('x', -10)">Decrease Width</button>
+        </div>
+        <div class='control-box'>
+            <p id='yheight'>Height: 50</p>
+            <button onclick="increment('y', 10)">Increase Height ^</button>
+            <button onclick="increment('y', -10)">Decrease Height v</button>
+        </div>
+
+
+
+
+       
+    </div>
+    
+    <div id='canvas2'></div>
+    <div id = 'v2'></div>
+    <script src="./v2index.js"></script>
+    </div>
+    
+    
+    
+   
+<script src="./listeners.js"></script>
+</body>
+</html> 
