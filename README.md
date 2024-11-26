@@ -1,3 +1,7 @@
+## Trello Board ##
+
+https://trello.com/invite/b/zgjVOa5I/bbf7083d1a142d2d752a2fab03b0bb7d/gameoflife-carey-baldwin
+
 # Cellular Automata and Conway's "Game of Life"
 
 ---

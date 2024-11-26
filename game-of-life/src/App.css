@@ -1,0 +1,109 @@
+.App{
+  font-family: 'Comfortaa', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main{
+  margin: 10px 5% 10px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  display: inline-block;       
+  border: 1px solid white;
+  width: 15px;
+  height: 15px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  }
+
+.off {
+  background-color: rgb(225, 243, 240);
+}
+
+.on {
+  background-color:rgb(163, 223, 213);
+}
+  
+.box:hover { 
+  background-color: rgb(163, 223, 213);
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  box-shadow: 0px 0px 20px rgb(245, 248, 247);
+  margin-top: 10px;
+}
+
+.side-panel{
+  margin-top: 45px;
+  text-align: center;
+}
+
+.controls {
+  margin: auto;
+  display: table;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  padding: 10px 20px;
+  margin: 10px 20px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 120px;
+}
+
+button:hover{
+  background:rgb(228, 228, 228);
+}
+
+
+h1, h2, h3, h4 {
+  color: black;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p{
+  font-family:'Khula', sans-serif;
+}
+
+.text-block{
+  text-align: left;
+  padding: 10px 0 10px 5%;
+  margin-top: 5px;
+  border-top: 1px solid gray;
+}
+
+.game-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0 10%;
+}
+
+i{
+  color: gray;
+}

@@ -1,0 +1,13 @@
+[Settings]
+ID = "6e183fda-4474-4fa4-b431-f2909d6d3a65"
+
+# Settings in the [build] context are global and are applied to all contexts unless otherwise overridden by more specific contexts.  
+
+[build]
+  # This is the directory to change to before starting a build.
+  base    = "game-of-life/"
+  # NOTE: This is where we will look for package.json/.nvmrc/etc, not root.
+  # This is the directory that you are publishing from (relative to root of your repo)
+  publish = "game-of-life/build/"
+  # This will be your default build command
+  command = "yarn build"
