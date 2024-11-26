@@ -1,3 +1,7 @@
+// start
+
+// https://trello.com/b/SW8ijqzE/game-of-life-arthur-bates
+
 # Cellular Automata and Conway's "Game of Life"
 
 ---
@@ -70,6 +74,12 @@ informational repo in yours.
 * Research Conway’s "Game of Life". Figure out how it works, why it’s
   useful, and how the notion of Turing Completeness is related to this
   topic.
+
+A celluar Automaton is a system of cells that exist in a grid ( 1, 2 or 3 demensions). The "Game of Life" exists in 2 dimensions. Computations run on a system of sells on a grid make a new set of cells on the grid, or a new "generation". the Game opf Life only had 2 states, 0 or 1 (on or off, alive or dead, etc.). for each configuration, or generation, of a grid, each cell is evaluated and a new state is given based on the previous state and it's neighbors (cells to the right and left). cell "neightbors" are the 8 cells surrounding an evaluated cell. The neighbors will decide whether the evaluated cell is then turned into a 0 or 1.
+
+The reason the "Game of Life" is called such is because the rules for moving from one generation to the next resembles a biological process ( similar to population growth or bacteria.) A cell surrounded by neighbors that are not alive cannot stay alive ( < 2 neighbors), cells surrounded by some live neighbors can come alive (3 neighbors ), and cells surrounded by too many live neighbors can die ( > 3 neighbors, similar to overpopulation).
+
+A data structure to store the grid is needed ( "2-dimensional array", or array of arrays ) that stores a random collection of 0's and 1's.
 
 ### Building Your App
 
