@@ -1,3 +1,5 @@
+* TRELLO LINK: https://trello.com/b/TrzvXNg3/gameoflife-erin-meredith
+
 # Cellular Automata and Conway's "Game of Life"
 
 ---
